@@ -51,4 +51,6 @@ int main() {
     // Print Result
     printf("Gamma: %d , Epsilon: %d \n", gamma, epsilon);
     printf("Result :%d \n", gamma * epsilon);
+
+    fclose(input);
 }

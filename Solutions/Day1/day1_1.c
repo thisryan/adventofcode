@@ -25,4 +25,6 @@ int main(){
 
     // Print Result
     printf("Difference: %d \n", difference);
+
+    fclose(input);
 }

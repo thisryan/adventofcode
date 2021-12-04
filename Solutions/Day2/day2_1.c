@@ -37,4 +37,6 @@ int main() {
     // Print result
     printf("Depth: %d : Horizontal: %d \n", submarine.depth, submarine.horizontal);
     printf("Result: %d \n", submarine.horizontal * submarine.depth);
+
+    fclose(input);
 }
